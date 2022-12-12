@@ -1,4 +1,4 @@
-const wrapper = document.querySelector(".wrapper"),
+const wrapper = document.querySelector(".box_wrapper"),
 qrInput = wrapper.querySelector(".form input"),
 generateBtn = wrapper.querySelector(".form button"),
 qrImg = wrapper.querySelector(".qr-code img");
