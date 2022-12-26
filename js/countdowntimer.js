@@ -146,3 +146,4 @@ resetSessionButton.addEventListener('click', resetSession);
 startBreakButton.addEventListener('click', startBreak);
 pauseBreakButton.addEventListener('click', pauseBreak);
 resetBreakButton.addEventListener('click', resetBreak);
+//fulscreen javascript--------------------------------

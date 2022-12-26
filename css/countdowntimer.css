@@ -360,9 +360,9 @@ flex-flow: wrap;
   }*/
 /*countdown timer*/
 
-h1,
-h2,
-h3 {
+.wrapper h1,
+.wrapper h2,
+.wrapper h3 {
     color:black;
     font-family: 'Lato';
     font-weight: 300;
@@ -372,12 +372,12 @@ h3 {
     padding: 0;
     margin: 0;
 }
-a {
-    color: white;
+.wrapper a {
+    color: black;
     text-decoration: none;
     opacity: 0.7;
 }
-a:hover {
+.wrapper a:hover {
     opacity: 1;
 }
 .wrapper {
@@ -400,10 +400,10 @@ a:hover {
 .group {
     height: 55px;
 }
-.left {
+.wrapper .left {
     float: left;
 }
-.right {
+.wrapper .right {
     float: right;
 }
 .clock {
@@ -431,4 +431,144 @@ a:hover {
 }
 .button:focus {
     outline: none;
+}
+.fullscreen-button{
+  width: 100px;
+  height: 45px;
+  font-size: 50px;
+  background: transparent;
+  justify-content: center;
+  float: right;
+  border: none;
+ 
+}
+.fullscreen-button span{
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/*----------------CSS For Full screen-----*/
+
+.element:-webkit-full-screen {
+  background-color: #F44336;
+  width: 100vw;
+  height: 100vh;
+}
+
+.element:-webkit-full-screen p {
+  visibility: visible;
+}
+
+.element:-moz-full-screen {
+  background-color: #F44336;
+  width: 100vw;
+  height: 100vh;
+}
+
+.element:-moz-full-screen p {
+  visibility: visible;
+}
+
+.element:-ms-fullscreen {
+  background-color: #F44336;
+  width: 100vw;
+  height: 100vh;
+}
+
+.element:-ms-fullscreen p {
+  visibility: visible;
+}
+
+.element:fullscreen {
+  background-color: #F44336;
+  width: 100vw;
+  height: 100vh;
+}
+
+.element:fullscreen p {
+  visibility: visible;
+}
+.element:fullscreen body {
+  background: #F44336;
+  padding: 0;
+  margin: 0;
+}
+.element:fullscreen h1,
+.element:fullscreen h2,
+.element:fullscreen h3 {
+  color: white;
+  font-family: 'Lato';
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+.element:fullscreen a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+.element:fullscreen a:hover {
+  opacity: 1;
+}
+.element:fullscreen .wrapper {
+  margin: 0 auto;
+  width: 300px;
+  height: 100vh;
+}
+.element:fullscreen .align-wrap {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.element:fullscreen .align {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.element:fullscreen .group {
+  height: 55px;
+}
+.element:fullscreen .left {
+  float: left;
+}
+.element:fullscreen .right {
+  float: right;
+}
+.element:fullscreen .clock {
+  width: 300px;
+  height: 300px;
+  vertical-align: middle;
+  display: table-cell;
+}
+.element:fullscreen .timer {
+  padding: 110px 0;
+  font-weight: 400;
+  font-size: 4em;
+}
+.element:fullscreen .button {
+  width: 100px;
+  height: 45px;
+  border: solid thin white;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+}
+.element:fullscreen .button:hover {
+  background: white;
+  color: #F44336;
+}
+.element:fullscreen .button:focus {
+  outline: none;
+}
+.element:fullscreen .fullscreen-button span{
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
 }
