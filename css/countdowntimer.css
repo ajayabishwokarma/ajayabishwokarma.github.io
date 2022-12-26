@@ -359,15 +359,11 @@ flex-flow: wrap;
     padding: 2px 16px;
   }*/
 /*countdown timer*/
-body {
-    background: #F44336;
-    padding: 0;
-    margin: 0;
-}
+
 h1,
 h2,
 h3 {
-    color: white;
+    color:black;
     font-family: 'Lato';
     font-weight: 300;
     line-height: 1.1;
@@ -388,6 +384,8 @@ a:hover {
     margin: 0 auto;
     width: 300px;
     height: 100vh;
+    border: 1px solid black;
+   
 }
 .align-wrap {
     width: 100%;
@@ -422,10 +420,10 @@ a:hover {
 .button {
     width: 100px;
     height: 45px;
-    border: solid thin white;
+    border: solid thin black;
     text-transform: uppercase;
     background: transparent;
-    color: white;
+    color:black;
 }
 .button:hover {
     background: white;
