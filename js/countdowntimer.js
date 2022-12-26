@@ -8,8 +8,8 @@ var rest = 5;
 var sessionSeconds = session * 60;
 var restSeconds = rest * 60;
 
-var audioSession = new Audio('http://www.oringz.com/oringz-uploads/sounds-948-just-like-magic.mp3');
-var audioBreak = new Audio('http://www.oringz.com/oringz-uploads/sounds-882-solemn.mp3');
+var audioSession = new Audio('https://github.com/ajayabishwokarma/ajayabishwokarma.github.io/blob/main/music/mixkit-soft-bell-countdown-919.wav');
+var audioBreak = new Audio('https://github.com/ajayabishwokarma/ajayabishwokarma.github.io/blob/main/music/mixkit-soft-bell-countdown-919.wav');
 
 var sessionMinutes = document.getElementById('sessionMinutes'),
   sessionMinus = document.getElementById('sessionMinus'),
