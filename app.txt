@@ -1,0 +1,22 @@
+1. Password Generator
+2. QR Reader/Scanner
+3. Draw Or Paint App
+4. Keep Note
+5. QR code Generator
+Palindrom checker
+To-Do List 
+Memory card game
+Typing Speed Test
+Random Quote Generator
+Dictionary App
+word scramble game
+Image editior
+guess a word
+Download any file/file downloader
+Currency converter
+weather App
+Youtube Thumbnail downloader
+Tic tac toe App
+calculator
+word counter
+grammer checker
